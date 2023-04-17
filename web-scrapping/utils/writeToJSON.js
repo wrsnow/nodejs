@@ -25,9 +25,3 @@ async function writeToJSONV2(fileName, data) {
     }
   }
 }
-
-const DATA = {
-  pass: "asdassad",
-  name: "asdasdasddsa",
-};
-writeToJSONV2("newFile.json", DATA);
